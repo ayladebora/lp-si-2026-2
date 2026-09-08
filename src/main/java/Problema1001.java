@@ -6,6 +6,7 @@ public class Problema1001 {
         int b = Integer.parseInt(leitor.nextLine());
         System.out.println("X = "+(a+b));
 
+
         leitor.close();
 
     }
