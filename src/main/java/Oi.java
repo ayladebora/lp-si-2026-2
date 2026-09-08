@@ -9,10 +9,12 @@ public class Oi {
 
 
     public static void main(String [] args){
-        String nomeLido = JOptionPane.showInputDialog("Diga seu nome");
+        String nomeLido = JOptionPane.showInputDialog(
+                "Diga seu nome");
         mostreMensagemBoasVindas(nomeLido);
         int numeroInteiro = Integer.parseInt(JOptionPane.showInputDialog("Quantos anos voce tem?"));
-        double alturaUsuario = Double.parseDouble(JOptionPane.showInputDialog("Qual sua altura?"));
+        double alturaUsuario = Double.parseDouble(
+                JOptionPane.showInputDialog("Qual sua altura?"));
         int x = 10;
         String nome = "Ayla";
         System.out.println(nome.charAt(0));
