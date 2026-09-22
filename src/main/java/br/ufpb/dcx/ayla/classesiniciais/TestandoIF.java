@@ -1,3 +1,5 @@
+package br.ufpb.dcx.ayla.classesiniciais;
+
 import java.util.Scanner;
 
 public class TestandoIF {
@@ -6,7 +8,7 @@ public class TestandoIF {
         Scanner leitor = new Scanner(System.in);
         System.out.println("Qual o seu nome?");
         String nome = leitor.nextLine();
-        System.out.println("Oi "+ nome);
+        System.out.println("br.ufpb.dcx.ayla.classesiniciais.Oi "+ nome);
         System.out.println("Quantos anos você tem?");
         int idade = Integer.parseInt(leitor.nextLine());
         if (idade<18){

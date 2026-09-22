@@ -1,3 +1,5 @@
+package br.ufpb.dcx.ayla.classesiniciais;
+
 import java.util.Scanner;
 public class Problema1001 {
     public static void main(String [] args){

@@ -1,3 +1,5 @@
+package br.ufpb.dcx.ayla.classesiniciais;
+
 import javax.swing.JOptionPane;
 
 public class TestaLerNomes {

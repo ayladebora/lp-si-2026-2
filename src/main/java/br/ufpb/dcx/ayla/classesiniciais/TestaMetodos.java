@@ -1,3 +1,5 @@
+package br.ufpb.dcx.ayla.classesiniciais;
+
 import java.util.Scanner;
 
 public class TestaMetodos {
@@ -17,7 +19,7 @@ public class TestaMetodos {
     public static void digaOi10Vezes(){
         int cont = 10;
         while(cont>0){
-            System.out.println("Oi "+cont);
+            System.out.println("br.ufpb.dcx.ayla.classesiniciais.Oi "+cont);
             cont--;
         }
     }

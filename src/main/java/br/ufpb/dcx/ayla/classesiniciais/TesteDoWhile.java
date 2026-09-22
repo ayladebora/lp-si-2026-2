@@ -1,3 +1,5 @@
+package br.ufpb.dcx.ayla.classesiniciais;
+
 import javax.swing.*;
 
 public class TesteDoWhile {
@@ -5,7 +7,7 @@ public class TesteDoWhile {
         boolean sair = false;
         while(!sair){
             String nome = JOptionPane.showInputDialog("Digite seu nome");
-            JOptionPane.showMessageDialog(null, "Oi "+nome);
+            JOptionPane.showMessageDialog(null, "br.ufpb.dcx.ayla.classesiniciais.Oi "+nome);
             String querSair = JOptionPane.showInputDialog("Deseja sair?Sim(S) ou Não(N)");
             if (querSair.toUpperCase().charAt(0)=='S'){
                 sair = true;

@@ -1,9 +1,11 @@
+package br.ufpb.dcx.ayla.classesiniciais;
+
 import javax.swing.JOptionPane;
 
 public class Oi {
 
     public static void mostreMensagemBoasVindas(String nome){
-        System.out.println("Oi "+ nome);
+        System.out.println("br.ufpb.dcx.ayla.classesiniciais.Oi "+ nome);
         System.out.println("Como vai você?");
     }
 

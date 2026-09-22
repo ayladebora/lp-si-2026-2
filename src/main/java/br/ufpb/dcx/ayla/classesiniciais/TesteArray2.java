@@ -1,3 +1,5 @@
+package br.ufpb.dcx.ayla.classesiniciais;
+
 public class TesteArray2 {
     public static void main(String [] args){
         int [] numeros = {3, 5, 6, 8, 17, 19};

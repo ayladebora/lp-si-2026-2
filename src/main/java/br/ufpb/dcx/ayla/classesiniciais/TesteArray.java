@@ -1,3 +1,5 @@
+package br.ufpb.dcx.ayla.classesiniciais;
+
 public class TesteArray {
     public static void main(String [] args){
         System.out.println("Args:");
