@@ -1,4 +1,4 @@
-package br.ufpb.dcx.ayla.atendimentos;
+package br.ufpb.dcx.ayla.agenda;
 
 public class Endereco {
     private String logradouro;
@@ -19,10 +19,18 @@ public class Endereco {
         this("","","","", "");
     }
 
+    public String getCidade(){
+        return this.cidade;
+    }
+
     public Endereco(String logradouro){
         this(logradouro, "S/N", "", "Rio Tinto", "PB");
     }
 
+    public String toString(){
+        return this.logradouro+", "+ this.numero+" - "+ this.bairro+" - "+
+                this.cidade+"-"+this.estado;
+    }
 
 
 
