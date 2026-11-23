@@ -15,7 +15,8 @@ public interface SistemaGerenciaDeAtletas {
     public void cadastrarAtleta(String codigoAtleta, int idade, List<Telefone> telefones);
     public List<Atleta> pesquisarAtletasComIdadeEntre(int idadeInferior, int idadeSuperior);
     public int pesquisarMaiorIdadeDosAtletas();
-    public boolean cadastrarTelefoneDeAtleta(String codigoAtleta, Telefone tel);
+    public void cadastrarTelefoneDeAtleta(String codigoAtleta, Telefone tel)
+            throws AtletaNaoExisteException;
     public boolean apagarTelefoneDeAtleta(String codigoAtleta, Telefone tel);
 }
 

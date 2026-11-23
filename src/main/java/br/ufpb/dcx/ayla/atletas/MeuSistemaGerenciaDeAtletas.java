@@ -14,14 +14,19 @@ public class MeuSistemaGerenciaDeAtletas implements SistemaGerenciaDeAtletas {
         //TODO
     }
 
-    public boolean cadastrarTelefoneDeAtleta(String codigoAtleta, Telefone tel) {
+    public void cadastrarTelefoneDeAtleta(String codigoAtleta, Telefone tel)
+            throws AtletaNaoExisteException{
+        boolean cadastrou = false;
         for (Atleta a : this.atletas) {
             if (a.getCodigo().equals(codigoAtleta)) {
                 a.cadastraTelefone(tel);
-                return true;
+                cadastrou = true;
+                break;
             }
         }
-        return false;
+        if (!cadastrou) {
+            throw new AtletaNaoExisteException("Não existe atleta com o código " + codigoAtleta);
+        }
     }//… Outros métodos da classe
 
     public List<Atleta> pesquisarAtletasComIdadeEntre(int idadeInferior, int idadeSuperior){
