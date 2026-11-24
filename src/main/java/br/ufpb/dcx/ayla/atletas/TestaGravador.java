@@ -10,6 +10,7 @@ public class TestaGravador {
         GravadorDeAtletas gravador = new GravadorDeAtletas();
 
 
+
         List<Atleta> atletasList  = new ArrayList<>();
 
         try {
